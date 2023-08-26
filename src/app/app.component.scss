@@ -1,0 +1,27 @@
+:host {
+	height: 100vh;
+	display: grid;
+	grid-template-rows: auto 1fr;
+	grid-template-columns: 1fr 20%;
+	grid-template-areas: 
+		"nav nav"
+		"main log";
+}
+
+.nav-area {
+	grid-area: nav;
+	background-color: red;
+	padding: 1rem;
+}
+
+.main-area {
+	grid-area: main;
+	background-color: green;
+}
+
+.log-area {
+	grid-area: log;
+	background-color: black;
+	color: white;
+	padding: 1rem;
+}
