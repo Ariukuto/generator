@@ -1,0 +1,125 @@
+{
+	"$schema": "./settings.schema.json",
+	"headerFields": [
+		{
+			"key": "$adresseClient",
+			"label": "Adresse des Clients",
+			"value": ""
+		},
+		{
+			"key": "$datumAntrag",
+			"label": "Datum Antrag",
+			"value": ""
+		},
+		{
+			"key": "$datumBeschekey",
+			"label": "Datum Antrag",
+			"value": ""
+		},
+		{
+			"key": "$datumGutachtenMD",
+			"label": "Datum Gutachten MD",
+			"value": ""
+		},
+		{
+			"key": "$datumWkeyerspruchsbeschekey",
+			"label": "Datum Wiederspruchsbeschekey",
+			"value": ""
+		},
+		{
+			"key": "$datumWiederspruch",
+			"label": "Datum Wiederspruch",
+			"value": ""
+		},
+		{
+			"key": "$gDB", 
+			"label": "GDB",
+			"value": ""
+		},
+		{
+			"key": "$gegner",
+			"label": "Gegner",
+			"value": ""
+		},
+		{
+			"key": "$inSachen",
+			"label": "Betreff",
+			"value": ""
+		},
+		{
+			"key": "$klaeger",
+			"label": "Kläger",
+			"value": ""
+		},
+		{
+			"key": "$pflegegradAlt",
+			"label": "Pflegegrad Alt",
+			"value": ""
+		},
+		{
+			"key": "$pflegegradNeu",
+			"label": "Pflegegrad Neu",
+			"value": ""
+		}
+	],
+	"modules": [
+		{
+			"key": "mobilität",
+			"label": "Modul 1: Mobilität",
+			"value": 0,
+			"defaultOptions": [
+				{ "value": 0, "label": "selbständig" },
+				{ "value": 1, "label": "überwiegend selbständig" },
+				{ "value": 2, "label": "überwiegend unselbständig" },
+				{ "value": 3, "label": "unselbständig" }
+			],
+			"entries": [
+				{
+					"key": "$positionsWechselImBett",
+					"label": "F 4.1.1 Positionswechsel im Bett",
+					"text": "",
+					"anzeigen": false,
+					"optionValue": null,
+					"options": []
+				},
+				{
+					"key": "$haltenEinerStabilenSitzPosition",
+					"label": "F 4.1.2 Halten einer stabilen Sitzposition",
+					"text": "",
+					"anzeigen": false,
+					"options": []
+				},
+				{
+					"key": "$umsetzen",
+					"label": "F 4.1.3 Umsetzen",
+					"text": "",
+					"anzeigen": false,
+					"options": []
+				},
+				{
+					"key": "$fortbewegenInnerHalbDesWohnbereichs",
+					"label": "F 4.1.4 Fortbewegen innerhalb des Wohnbereichs",
+					"text": "",
+					"anzeigen": false,
+					"options": []
+				},
+				{
+					"key": "$reppensteigen",
+					"label": "F 4.1.5 Treppensteigen",
+					"text": "",
+					"anzeigen": false,
+					"options": []
+				},
+				{
+					"key": "$besondereBedarfskonstellation",
+					"label": "F 4.1.B Besondere Bedarfskonstellation",
+					"text": "",
+					"anzeigen": false,
+					"options": [
+						{ "value": false, "label": "ist gegeben" }
+					]
+				}
+			]
+		}
+	]
+}
